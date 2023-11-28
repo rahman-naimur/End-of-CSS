@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .child{
+    color: white;
+    margin: 5px;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 5px solid tomato;
+} */
+.child{
+    width: 28%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    border: 5px solid tomato;
+}
+.item1{
+    background-color: #53128f;
+    
+}
+.item2{
+    background-color: #53128f;
+}
+.item3{
+    background-color: #53128f;
+}
