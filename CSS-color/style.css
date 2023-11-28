@@ -1,0 +1,40 @@
+.text{
+    font-size: 20px;
+}
+.p1{
+    /* এইটা দ্বারা টেক্সট এর রং নির্ধারণ করা যায় */
+    color: rgb(255, 100, 0);
+}
+.p2{
+    /* এটা টেক্সটগুলোকে horizontally মাঝে নিয়ে আসে */
+    text-align: center;
+    /* vertically মাঝে আনতে চাইলে - */
+    /* vertical-align: center; */
+    /* যদি কোন সময় লেখাগুলো উল্টা দিক থেকে লিখতে প্রয়োজন হলে */
+    /* direction: value; */
+    direction: rtl;
+}
+
+.p3{
+    /* টেক্সট decoration এ টেক্সটকে কেমন দেখাবে নির্ধারণ করা হয় */
+    text-decoration: underline;
+    /* এর দ্বারা  একটা লিংক এর underline হাইড করা হয়। */
+}
+.p4{
+    /* এর দ্বারা টেক্সট এর Capitalized, uppercase, lowercase , etc ফিক্স করে দেওয়া হয় */
+    text-transform: uppercase;
+}
+.p5{
+    /* এটা লেটারের মাঝের গ্যাপ, শুরুর গ্যাপ ইত্যাদি দেওয়া হয় */
+    letter-spacing: 10px;
+    text-indent: 10px;
+}
+.p6{
+    /* ফেল্ডারে এর বিবরণ সহ ছবি দেওয়া আছে */
+    margin: 5px;
+    padding: 5px;
+    text-shadow: 2px 2px 5px red;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
