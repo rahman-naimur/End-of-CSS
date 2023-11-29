@@ -2,3 +2,11 @@
     margin: 0;
     padding: 0;
 }
+p{
+    font-size: 30px;
+    margin: 5px;
+}
+        /* Serif Font */
+.p1{
+    font-family: 'Red serif', serif;
+}
