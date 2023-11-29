@@ -5,8 +5,15 @@
 p{
     font-size: 30px;
     margin: 5px;
+
 }
         /* Serif Font */
-.p1{
-    font-family: 'Red serif', serif;
+.serif{
+    font-family: serif;
+}
+
+
+        /* San-Serif */
+.sans{
+    font-family: sans-serif;
 }
