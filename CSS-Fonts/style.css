@@ -11,9 +11,61 @@ p{
 .serif{
     font-family: serif;
 }
-
+.time{
+    font-family: 'Times New Roman', Times, serif;
+}
+.georgia{
+    font-family: Georgia, serif;
+}
+.garamond{
+    font-family: Garamond, serif;
+}
 
         /* San-Serif */
 .sans{
     font-family: sans-serif;
 }
+.arial{
+    font-family: Arial, sans-serif;
+}
+.verdana{
+    font-family: Verdana, sans-serif;
+}
+.helvetica{
+    font-family: Helvetica, sans-serif;
+}
+     /* Monospace */
+.monospace{
+    font-family: monospace;
+}
+.courier{
+    font-family: 'Courier New', monospace;
+}
+.lucida{
+    font-family: 'Lucida Console', monospace;
+}
+.monaco{
+    font-family: 'monaco', monospace;
+}
+    /* Cursive*/
+.cursive{
+    font-family: cursive;
+}
+    /* Sub Cursive */
+.brush{
+    font-family: 'Comforter Brush', cursive;
+}
+.lucida2{
+    font-family: 'lucida handwriting', cursive;
+}
+    /* Fantacy Fonts */
+.fantasy{
+    font-family: fantasy;
+}
+ /* sub Factacy Fonts */
+ .coper{
+    font-family: coperplate, fantasy;
+ }
+ .papyrus{
+    font-family: papyrus, fantasy;
+ }
