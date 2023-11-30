@@ -38,6 +38,9 @@ h1,h2 {
 .helvetica{
     font-family: Helvetica, sans-serif;
 }
+.tahoma{
+    font-family: Tahoma, sans-serif;
+}
      /* Monospace */
 .monospace{
     font-family: monospace;
@@ -73,3 +76,14 @@ h1,h2 {
  .papyrus{
     font-family: papyrus, fantasy;
  }
+
+.oblique{
+    font-style: oblique;
+}
+.italic{
+    font-style: italic;
+}
+.weight{
+    font-weight: 900;
+    font-size: 2rem;
+}
