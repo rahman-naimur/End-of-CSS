@@ -5,7 +5,11 @@
 p{
     font-size: 30px;
     margin: 5px;
+    
 
+}
+h1,h2 {
+    color: blueviolet;
 }
         /* Serif Font */
 .serif{
