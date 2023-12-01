@@ -6,3 +6,6 @@ h1{
 p{
     font-family: Audiowide;
 }
+h2{
+  font: normal normal 100 2rem 'Audiowide';
+}
