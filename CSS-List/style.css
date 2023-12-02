@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 30px;
+}
+/* It defines like list margin */
+.position{
+    list-style-position: inside;
+}
+.remove{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+.color1{
+    background-color: rgb(61, 52, 40);
+    list-style-position: inside;
+    
+}
+.color1 li{
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+.color2{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.color2 li{
+    background-color: lightblue;
+    color: blueviolet;
+    margin: 5px;
+}
