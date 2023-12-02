@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    overflow-x: auto;
+}
+table{
+    margin: 10px;
+    width: 80vw;
+    /* For collaping border */
+    border-collapse: collapse;
+}
+table, th, td, tr{
+    border: 2px solid black;
+}
+td{
+    text-align: center;
+    vertical-align: center;
+}
+a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 12px 25px;
+    margin-left: 40%;
+    background-color: rgb(109, 220, 235);
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(82, 243, 82);
+    color: white;
+}
