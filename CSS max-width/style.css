@@ -1,0 +1,14 @@
+#only{
+    border: 3px solid red;
+    width: 500px;
+    margin: auto;
+    padding: 1%;
+}
+
+ /* max-width এটা ‍দিলে যত টুকু নির্ধারণ করে দেওয়া হবে এর বেশী যাবে না */
+.width{
+    border: 3px solid tomato;
+    max-width: 500px;
+    margin: auto;
+    padding: 1%;
+}
