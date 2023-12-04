@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+#main {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(127, 149, 167);
+    position: relative;
+}
+#main div {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    opacity: 0.8;
+}
+.red{
+    background-color: red;
+    left: 0px;
+    z-index: 3;
+}
+.green{
+    background-color: green;
+    right: 0px;
+    z-index: 1;
+}
+.blue{
+    background-color: blue;
+    bottom: 0px;
+    z-index: 2;
+}
