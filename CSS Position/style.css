@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 200vh;
+}
+div{
+    margin: 20px;
+    font-size: 2rem;
+}
+.box{
+    display: inline-block;
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+}
+/* position type: this is a basic type of positioning & this is defult */
+div.static{
+    position: static;
+}
+/* position type: relative to his defult position */
+div.relative{
+    position: relative;
+    left: 50px;
+}
+/* position type: relative to browser defult page & it is fixed */
+div.fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.parent{
+    position: relative;
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    background-color: bisque;
+}
+/* Position type: relative to his parent & must set the parent position relative */
+.absolute{
+    position: absolute;
+    top: 80px;
+}
+.sticky{
+    position: sticky;
+    top: 3px;
+    left: 500px;
+}
