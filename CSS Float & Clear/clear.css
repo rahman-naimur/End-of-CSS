@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    height: 30vh;
+    width: 100%;
+}
+.box{
+    height:25vh;
+    width: 50%;
+    float: left;
+    text-align: center;
+    vertical-align: center;
+}
+.box1 {
+    background-color: skyblue;
+}
+.box2{
+    background-color: lightgreen;
+}
