@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.container{
+    height: 40vh    ;
+    background: url(bg.jpg) repeat;
+    border: 2px solid black;
+
+}
+.box{
+    padding: 80px;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    text-align: center;
+}
+div.box p {
+    font-family: cursive;
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
