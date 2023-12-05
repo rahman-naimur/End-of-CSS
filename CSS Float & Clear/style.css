@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    border: 2px solid red;
+    height: 200px;
+    margin:  10px 0px;
+}
+img {
+    height: 150px;
+    width: 150px;
+    margin: 5px;    
+}
+p {
+    margin: 5px;
+    font: 20px cursive;
+}
+
+/* Float Left */
+.left {
+    float: left;
+}
+/* Float Right */
+.right {
+    float: right;
+}
+/* Float no-float */
+.no {
+    float: none;
+}
+.scroll{
+    overflow-y: scroll;
+}
