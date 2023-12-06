@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.container{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    text-align: center;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    padding: 15px;
+    /* border-radius: 5px; */
+    color: rgb(38, 36, 36);
+    background-color: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li a:hover{
+    background-color: green;
+    color: white;
+}
