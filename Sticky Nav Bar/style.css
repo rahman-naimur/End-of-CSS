@@ -31,9 +31,10 @@ li a:hover{
     color: #fff;
 }
 div.side{
+    background-color: khaki;
     margin-left: 25%;
     padding: 1px 16px;
-    height: 200vh;
+    height: 300vh;
 }
 div h1{
     font-family: Audiowide;
