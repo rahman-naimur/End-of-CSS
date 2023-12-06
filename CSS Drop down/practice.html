@@ -5,6 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
 </head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: bisque;
+    }
+    .container{
+        background-color: #22b398;
+        padding: 10px;
+        text-align: center;
+
+        
+    }
+    .container a{
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+    .drop-container{
+        display: inline;
+        position: relative;
+    }
+    .drop-content{
+        position: absolute;
+        top: 30px;
+        left: 0;
+        display: inline;
+        background-color: #22b398;
+        text-align: left;
+        max-width: 100%;
+        display: none;
+    }
+    .drop-content a {
+        display: block;
+    }
+    .drop-content a:hover {
+        background-color: #22b398;
+    }
+    .drop-container:hover .drop-content{
+        display: block;
+    }
+</style>
 <body>
     <div class="container">
         <a href="#">Home</a>
