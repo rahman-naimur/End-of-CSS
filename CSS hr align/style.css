@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    background-color: #282a35;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+li {
+    display: inline;
+
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: skyblue;
+}
