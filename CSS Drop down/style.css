@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    height: 80vh    ;
+}
+.text{
+    position: relative;
+    background-color: rgb(209, 209, 71);
+    display: inline-block;
+    margin: auto;
+}
+.text-hover{
+    display: none;
+    position: absolute;
+    font-size: 32px;
+    box-shadow: 0px 12px 15px 3px rgba(0, o, o, 0.5);
+    background-color: #f9f9f9;
+    min-width: 150px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+.text:hover .text-hover {
+    display: block;
+    font-size: large;
+    color: red;
+}
