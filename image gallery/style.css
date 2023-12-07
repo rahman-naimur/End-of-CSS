@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h5{
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+h1:hover {
+    color: red;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.sec{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 24%;
+    text-align: center;
+}
+.sec:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(97, 92, 92, 0.2);
+}
+.sec img {
+    width: 350px;
+}
+.sec p {
+    font-size: 1.2em;
+    text-align: center;
+}
