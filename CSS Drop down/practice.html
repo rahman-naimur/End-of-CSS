@@ -4,53 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
-</head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        background-color: bisque;
-    }
-    .container{
-        background-color: #22b398;
-        padding: 10px;
-        text-align: center;
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        
-    }
-    .container a{
-        padding: 10px 20px;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.5em;
-        cursor: pointer;
-    }
-    .drop-container{
-        display: inline;
-        position: relative;
-    }
-    .drop-content{
-        position: absolute;
-        top: 30px;
-        left: 0;
-        display: inline;
-        background-color: #22b398;
-        text-align: left;
-        max-width: 100%;
-        display: none;
-    }
-    .drop-content a {
-        display: block;
-    }
-    .drop-content a:hover {
-        background-color: #22b398;
-    }
-    .drop-container:hover .drop-content{
-        display: block;
-    }
-</style>
+        body {
+            background-color: bisque;
+        }
+
+        .container {
+            background-color: #22b398;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        .drop-container {
+            display: inline;
+            position: relative;
+        }
+
+        .drop-content {
+            position: absolute;
+            top: 30px;
+            left: 0;
+            background-color: #22b398;
+            text-align: left;
+            max-width: 100%;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease, transform 0.3s ease; /* Add transition effects */
+            transform: perspective(600px) rotateX(-90deg); /* Initial 3D rotation */
+            animation: fadeInOut 0.5s ease-in-out forwards; /* Apply keyframe animation */
+        }
+
+        .drop-content a {
+            display: block;
+            transform: rotateX(0deg); /* Initial individual item rotation */
+            transition: transform 0.3s ease; /* Add transition effect for individual items */
+        }
+
+        .drop-content a:hover {
+            background-color: #22b398;
+            transform: rotateX(0deg); /* Final individual item rotation on hover */
+        }
+
+        .drop-container:hover .drop-content {
+            display: block;
+            opacity: 1;
+            transform: perspective(600px) rotateX(0deg); /* Final 3D rotation on hover */
+        }
+
+        @keyframes fadeInOut {
+            0% {
+                opacity: 0;
+                transform: perspective(600px) rotateX(-90deg);
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 1;
+                transform: perspective(600px) rotateX(0deg);
+            }
+        }
+    </style>
+</head>
 <body>
     <div class="container">
         <a href="#">Home</a>
@@ -58,12 +87,12 @@
         <div class="drop-container">
             <a href="#">Contact</a>
             <div class="drop-content">
-                <a href="#">Facebok</a>
+                <a href="#">Facebook</a>
                 <a href="#">Whatsapp</a>
-                <a href="#">Linkedin</a>
+                <a href="#">LinkedIn</a>
             </div>
+        </div> <!-- Close the drop-container div here -->
         <a href="#">About Us</a>
-        </div>
     </div>
 </body>
 </html>
